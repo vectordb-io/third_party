@@ -81,25 +81,27 @@ sh onekey.sh
 
 3. **rocksdb**
 ```
-cd ./rocksdb && sh build.sh
+./third_party/rocksdb/include
+
+./third_party/rocksdb/librocksdb.a
 ```
 
 4. **hnswlib**
 ```
-header file only, no need to build
+./third_party/hnswlib
 ```
 
 5. **spdlog**
 ```
-header file only, no need to build
+./third_party/spdlog/include
 ```
 
 6. **cxxopts**
 ```
-header file only, no need to build
+./third_party/cxxopts/include
 ```
 
 7. **nlohmann_json**
 ```
-header file only, no need to build
+./third_party/nlohmann_json/single_include
 ```

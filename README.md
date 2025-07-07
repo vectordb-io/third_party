@@ -4,10 +4,11 @@
 
 | library | version |
 |---|---|
-| nlohmann_json | v3.10.0 |
 | googletest | v1.14.0 |
+| protobuf | v3.20.3 |
+| rocksdb | v9.8.4 |
 | hnswlib | v0.8.0 |
 | spdlog | v1.13.0 |
-| protobuf | v3.20.3 |
 | cxxopts | v3.2.0 |
-| rocksdb | v9.8.4 |
+| nlohmann_json | v3.10.0 |
+

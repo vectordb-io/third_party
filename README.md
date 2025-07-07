@@ -22,37 +22,37 @@ sudo apt-get install libgflags-dev libsnappy-dev zlib1g-dev libbz2-dev liblz4-de
 
 ### build libraries
 
-#### googletest
+1. **googletest**
 ```
 cd ./googletest && sh build.sh
 ```
 
-#### protobuf
+2. **protobuf**
 ```
 cd ./protobuf && sh build.sh
 ```
 
-#### rocksdb
+3. **rocksdb**
 ```
 cd ./rocksdb && sh build.sh
 ```
 
-#### hnswlib
+4. **hnswlib**
 ```
 header file only, no need to build
 ```
 
-#### spdlog
+5. **spdlog**
 ```
 header file only, no need to build
 ```
 
-#### cxxopts
+6. **cxxopts**
 ```
 header file only, no need to build
 ```
 
-#### nlohmann_json
+7. **nlohmann_json**
 ```
 header file only, no need to build
 ```

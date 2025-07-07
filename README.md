@@ -1,6 +1,6 @@
-# third-party source code
+# Third-Party Source Code
 
-## versions
+## Versions
 
 | library | version |
 |---|---|
@@ -12,7 +12,7 @@
 | cxxopts | v3.2.0 |
 | nlohmann_json | v3.10.0 |
 
-## build on "Ubuntu 24.04.2 LTS"
+## Build on "Ubuntu 24.04.2 LTS"
 
 ### install dependency
 ```
@@ -54,4 +54,9 @@ header file only, no need to build
 ### nlohmann_json
 ```
 header file only, no need to build
+```
+
+### one key build all
+```
+sh onekey.sh
 ```

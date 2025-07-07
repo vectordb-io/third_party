@@ -12,18 +12,6 @@
 | cxxopts | v3.2.0 |
 | nlohmann_json | v3.10.0 |
 
-## Include-Path / Output
-
-| library | version | output |
-|---|---|---|
-| googletest | ./third_party/googletest/googletest/include | ./third_party/protobuf/src/.libs/libprotobuf.a
-| protobuf | v3.20.3 |3 |
-| rocksdb | v9.8.4 |3 |
-| hnswlib | v0.8.0 |3 |
-| spdlog | v1.13.0 |3 |
-| cxxopts | v3.2.0 |3 |
-| nlohmann_json | v3.10.0 |3 |
-
 ## Build on "Ubuntu 24.04.2 LTS"
 
 ### install dependency
@@ -74,5 +62,44 @@ header file only, no need to build
 sh onekey.sh
 ```
 
+## Include-Path / Output
 
+1. **googletest**
+```
+./third_party/googletest/googletest/include 
 
+./third_party/googletest/build/lib/libgtest.a
+./third_party/googletest/build/lib/libgtest_main.a
+```
+
+2. **protobuf**
+```
+./third_party/protobuf/src
+
+./third_party/protobuf/src/.libs/libprotobuf.a
+```
+
+3. **rocksdb**
+```
+cd ./rocksdb && sh build.sh
+```
+
+4. **hnswlib**
+```
+header file only, no need to build
+```
+
+5. **spdlog**
+```
+header file only, no need to build
+```
+
+6. **cxxopts**
+```
+header file only, no need to build
+```
+
+7. **nlohmann_json**
+```
+header file only, no need to build
+```

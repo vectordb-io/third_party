@@ -20,38 +20,39 @@ sudo apt install autoconf automake libtool -y
 sudo apt-get install libgflags-dev libsnappy-dev zlib1g-dev libbz2-dev liblz4-dev libzstd-dev -y
 ```
 
+### build libraries
 
-### googletest
+#### googletest
 ```
 cd ./googletest && sh build.sh
 ```
 
-### protobuf
+#### protobuf
 ```
 cd ./protobuf && sh build.sh
 ```
 
-### rocksdb
+#### rocksdb
 ```
 cd ./rocksdb && sh build.sh
 ```
 
-### hnswlib
+#### hnswlib
 ```
 header file only, no need to build
 ```
 
-### spdlog
+#### spdlog
 ```
 header file only, no need to build
 ```
 
-### cxxopts
+#### cxxopts
 ```
 header file only, no need to build
 ```
 
-### nlohmann_json
+#### nlohmann_json
 ```
 header file only, no need to build
 ```

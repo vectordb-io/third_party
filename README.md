@@ -15,7 +15,9 @@
 ## build on "Ubuntu 24.04.2 LTS"
 
 ### googletest
+```
 cd ./googletest && sh build.sh
+```
 
 ### protobuf
 sudo apt install autoconf automake libtool -y

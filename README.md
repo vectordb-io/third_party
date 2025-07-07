@@ -14,7 +14,7 @@
 
 ## Include-Path / Output
 
-| library | version |
+| library | version | output |
 |---|---|
 | googletest | ./third_party/googletest/googletest/include | ./third_party/protobuf/src/.libs/libprotobuf.a
 | protobuf | v3.20.3 |3 |

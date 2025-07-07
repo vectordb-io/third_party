@@ -20,19 +20,29 @@ cd ./googletest && sh build.sh
 ```
 
 ### protobuf
+```
 sudo apt install autoconf automake libtool -y
 cd ./protobuf && sh build.sh
+```
 
 ### rocksdb
 
 ### hnswlib
+```
 header file only, no need to build
+```
 
 ### spdlog
+```
 header file only, no need to build
+```
 
 ### cxxopts
+```
 header file only, no need to build
+```
 
 ### nlohmann_json
+```
 header file only, no need to build
+```

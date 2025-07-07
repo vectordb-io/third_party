@@ -14,6 +14,13 @@
 
 ## build on "Ubuntu 24.04.2 LTS"
 
+### install dependency
+```
+sudo apt install autoconf automake libtool -y
+sudo apt-get install libgflags-dev libsnappy-dev zlib1g-dev libbz2-dev liblz4-dev libzstd-dev -y
+```
+
+
 ### googletest
 ```
 cd ./googletest && sh build.sh
@@ -21,11 +28,13 @@ cd ./googletest && sh build.sh
 
 ### protobuf
 ```
-sudo apt install autoconf automake libtool -y
 cd ./protobuf && sh build.sh
 ```
 
 ### rocksdb
+```
+cd ./rocksdb && sh build.sh
+```
 
 ### hnswlib
 ```

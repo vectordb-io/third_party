@@ -62,7 +62,7 @@ header file only, no need to build
 sh onekey.sh
 ```
 
-## Include-Path / Output
+## Include / Output
 
 1. **googletest**
 ```

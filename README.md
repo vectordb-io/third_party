@@ -12,6 +12,18 @@
 | cxxopts | v3.2.0 |
 | nlohmann_json | v3.10.0 |
 
+## Include-Path / Output
+
+| library | version |
+|---|---|
+| googletest | ./third_party/googletest/googletest/include | ./third_party/protobuf/src/.libs/libprotobuf.a
+| protobuf | v3.20.3 |3 |
+| rocksdb | v9.8.4 |3 |
+| hnswlib | v0.8.0 |3 |
+| spdlog | v1.13.0 |3 |
+| cxxopts | v3.2.0 |3 |
+| nlohmann_json | v3.10.0 |3 |
+
 ## Build on "Ubuntu 24.04.2 LTS"
 
 ### install dependency
@@ -61,3 +73,6 @@ header file only, no need to build
 ```
 sh onekey.sh
 ```
+
+
+
